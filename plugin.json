@@ -1,0 +1,23 @@
+{
+	"id": "nodebb-plugin-change-reputation",
+	"url": "https://github.com/Yehonatan-Albert/nodebb-plugin-change-reputation",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load",
+			"method": "init"
+		},
+		{
+			"hook": "filter:admin.header.build",
+			"method": "addAdminNavigation"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"templates": "static/templates",
+	"settingsRoute": "/admin/plugins/change-reputation"
+}
