@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-change-reputation",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "library.js",
   "repository": "https://github.com/Yehonatan-Albert/nodebb-plugin-change-reputation",
   "keywords": [
